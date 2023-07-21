@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Wali Sarkar</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 style="color: white;">Table Wali Sarkar</h1>
+            <input type="number" placeholder="Enter the Value Of a Table" id="table">
+            <input type="number" placeholder="Enter the Value Of a Range" id="range">
+            <div class="btns">
+                <button onclick="Divider()"><b>Get The Table</b></button>
+                <button onclick="Reload()"><b>Reload The Page</b></button>
+            </div>
+
+            <div id="content">
+            </div>
+            <button style="width: 44vw;" onclick="clearTable()"><b>Clear Table</b></button>
+            <button style="width: 44vw;" onclick="clearAll()"><b>Clear All</b></button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
